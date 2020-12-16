@@ -5,7 +5,7 @@ Simple docker API proxy based on https://stackoverflow.com/a/2150188
 ## Run
 
 ```
-docker run --rm -d --name docker -p 127.0.0.1:2375:2375 -v /var/run/docker.sock:/var/run/docker.sock 0x01be/sdp
+docker run -d --name docker -p 127.0.0.1:2375:2375 -v /var/run/docker.sock:/var/run/docker.sock 0x01be/sdp
 ```
 
 ## Test
