@@ -1,16 +1,12 @@
-# simple-docker-proxy
+# sdp
 
 Simple docker API proxy based on https://stackoverflow.com/a/2150188
 
 ## Run
 
-### Local
-
-`docker run -d --rm -p 127.0.0.1:2375:2375 -v /var/run/docker.sock:/var/run/docker.sock dimdm/simple-docker-proxy`
-
-### Open
-
-`docker run -d --rm -p 2375:2375 -v /var/run/docker.sock:/var/run/docker.sock dimdm/simple-docker-proxy`
+```
+docker run -d --rm -p 127.0.0.1:2375:2375 -v /var/run/docker.sock:/var/run/docker.sock 0x01be/sdp
+```
 
 ## Test
 
