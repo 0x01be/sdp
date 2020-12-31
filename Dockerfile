@@ -1,4 +1,4 @@
-FROM 0x01be/base
+FROM 0x01be/base:arm32v6
 
 ENV PORT=2375
 
